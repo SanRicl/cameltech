@@ -51,6 +51,20 @@ Execute o Docker Compose para configurar o ambiente.
 docker-compose up -d
 ```
 
+#### Migrar banco de dados
+
+```
+  npx prisma generate
+  npx prisma db push
+
+  ou
+
+
+  yarn prisma generate
+  yarn prisma db push
+
+```
+
 ### 4. Ambiente Pronto
 
 Agora, seu ambiente está pronto para uso.
